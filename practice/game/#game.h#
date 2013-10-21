@@ -1,0 +1,24 @@
+#ifndef GAME_H
+#define GAME_H
+
+struct room {
+  char *name;
+  char *description;  
+};
+
+struct roomWrapper {
+
+}
+
+struct map {
+  struct room rooms[10];
+};
+
+struct player {
+  struct room *curRoom;
+};
+
+struct room *init();
+
+
+#endif

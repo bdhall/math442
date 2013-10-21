@@ -1,0 +1,18 @@
+#ifndef _MYSTRUCTS_H
+#define _MYSTRUCTS_H
+
+
+typedef struct {
+  int *elements;
+  int size;
+  int capacity;
+} queue;
+
+queue *newQueue(int size);
+int isEmpty(queue *Q);
+int size(queue *Q);
+void enqueue(int x, queue *Q);
+int dequeue(queue *Q);
+void output(queue *Q);
+
+#endif

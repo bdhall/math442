@@ -1,0 +1,17 @@
+
+========================
+Blake Hall -- Math 442ss
+October 9th, 2013
+========================
+
+HOMEWORK 3v2
+
+What works: 
+- Breadth-first search using a queue struct
+- An implementation of a linked list struct
+
+What doesn't work:
+- The grammar
+- A breadth-first search using the linked list struct
+
+

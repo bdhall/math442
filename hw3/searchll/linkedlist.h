@@ -1,0 +1,24 @@
+#ifndef _LINKEDLIST_H
+#define _LINKEDLIST_H
+
+struct node {
+  int value;
+  struct node *next;
+  struct node *prev;
+};
+
+struct list {
+  int length;
+  struct node *head;
+  struct node *tail;
+};
+
+struct node *newNode(int value);
+struct list *newList(int value);  
+int size(struct list *l);
+int isEmpty(struct list *l);
+struct list *enqueue(struct list *l, int value);
+int dequeue(struct list *l);
+void output(struct list *l);
+
+#endif
